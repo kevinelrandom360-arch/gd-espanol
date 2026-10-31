@@ -1,0 +1,31 @@
+{
+  "geode": "v5.11.2",
+  "gd": {
+    "android": "2.2081",
+    "ios": "2.2081"
+  },
+  "id": "usuario.gd-espanol",
+  "name": "GD en Español",
+  "version": "v1.0.0",
+  "developer": "Usuario",
+  "description": "Traduce al español los textos de Geometry Dash.",
+  "settings": {
+    "activar-traduccion": {
+      "type": "bool",
+      "name": "Activar traducción",
+      "default": true
+    },
+    "quitar-acentos": {
+      "type": "bool",
+      "name": "Quitar acentos y ñ",
+      "description": "Déjalo activado si las letras con acento salen en blanco.",
+      "default": true
+    },
+    "registrar-sin-traducir": {
+      "type": "bool",
+      "name": "Registrar textos sin traducir",
+      "description": "Escribe en el registro los textos que faltan.",
+      "default": true
+    }
+  }
+}
